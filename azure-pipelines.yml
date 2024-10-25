@@ -8,11 +8,11 @@ trigger:
 
 strategy:
   matrix:
-    linux:
+    build on linux:
       imageName: "ubuntu-latest"
-    mac:
+    build on mac:
       imageName: "macOS-latest"
-    windows:
+    build on windows:
       imageName: "windows-latest"
   maxParallel: 3
 
